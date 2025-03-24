@@ -1,0 +1,52 @@
+/* print.css */
+@media print {
+  
+
+/* Hide print button in print view */
+#pbtn {
+    display: none;
+}
+
+    /* Hide the CKEditor toolbar and editor */
+    .cke_top, .cke_bottom 
+    {
+        display: none !important;
+    }
+    #fbtn{
+        display: none !important;
+    }
+
+    td {
+        border: none;
+        border: 1px inset #000 !important;
+        
+        text-align: center;
+    }
+
+    #pbtn{
+        display: none !important;
+    }
+        textarea.no-print-border {
+            border: none !important;
+            outline: none !important;
+            background: transparent !important;
+            resize: none !important;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+    
+        /* Hide the container's borders and shadows if any */
+        .cke {
+            border: none !important;
+            box-shadow: none !important;
+        }
+    
+       
+    
+    
+    }
+    
+
+    
+

@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.report-container {
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+header {
+    text-align: center;
+    border-bottom: none !important ;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman';
+    
+}
+
+header h1, header h2, header h3 {
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+header {
+    margin: 2px 0;
+}
+
+header h4 {
+    margin: 2px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    background-color: #ffffff;
+    width: 95%;
+    text-align: center;
+}
+
+#testReportNo{
+    width: 20%;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    padding: 0%;
+    
+}
+
+#test-heading{
+    font-size: 18px;
+    
+}
+
+#report{
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    border-bottom: 1px solid #000000;
+    margin-bottom: 2px;
+    padding-bottom: 4px;
+    
+}
+
+#testDate{
+    border-bottom: 2px solid #000000;
+    width: 15%;
+    padding-bottom: 4px;
+    margin-right: 5px;
+   
+
+}
+#dates{
+    
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+   margin-bottom: 10px;
+    
+    
+}
+
+
+
+#field1{
+    width: 67%; /* Adjust the width as needed */
+    margin-left: 10px; /* Adjust the spacing between the label and textarea */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    resize: vertical;
+    border-bottom: 0.5px solid #28282B;
+    margin-left: 2%;
+    
+    
+    
+}
+
+
+#reqNo{
+    margin-left: 9%;
+    width: 43%;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    border-bottom: #000000;
+    border-bottom: 1px solid #000000;
+   
+}
+
+#refno{
+    margin-left: 2%;
+    width: 20%;
+    
+}
+#date2{
+    margin-left: 2%;
+    font-weight: bold;
+    
+}
+
+#field2{
+    width: 67%; /* Adjust the width as needed */
+    margin-top: 14px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    resize: vertical;
+    border-bottom: 0.003cm solid #000000;
+    margin-left: 4%;
+    
+}
+
+
+
+h4 {
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+
+#item{
+    margin-left: 9%;
+    width: 35%;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    border-bottom: #000000;
+    border-bottom: 1px solid #000000;
+    
+}
+
+#make{
+    border-bottom: 1px solid #000000;
+    width: 15%;
+    margin-left: 9.5%;
+}
+
+#mark{
+    border-bottom: 0.5px solid #000000;
+    width: 35%;
+    margin-left: 1%;
+   
+}
+#receipt{
+    margin-left: 2%;
+    width: 28%;
+}
+#markifany{
+    margin-left: 2%;
+    width: 13%;
+    font-weight: bold;
+}
+#markifany1{
+    border-bottom: 1px solid #000000;
+    width: 15%;
+    margin-left: 2%;
+   
+}
+
+#sampling{
+    margin-top: 1%;
+    width: 35%;
+    text-align: center;
+    resize: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding: 0;
+    height: 19px;
+    
+}
+
+#dtsample{
+    margin-left: 0.5%;
+    width: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+#dtsampling{
+    margin-left: 2%;
+    
+}
+
+#env{
+    margin-left: 3%;
+    width: 15%;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    border-bottom: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+#temp{
+    margin-left: 0.5%;
+    width: 10%;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    border-bottom: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+#hum{
+    margin-left: 6%;
+    width: 15%;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    border-bottom: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+#tempe{
+    margin-left: 0%;
+}
+
+#humi{
+    margin-left: 0%;
+}
+#field5{
+    width: 68%; /* Adjust the width as needed */
+    margin-top: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border: none;
+    background-color: #ffffff;
+    resize: none;
+    border-bottom: 1px solid #000000;
+    margin-left: 15%;
+    height: 22px;
+    padding-bottom: 0%;
+}
+#statement{
+    margin-left: 1%;
+    width: 40%;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    
+    border-bottom: 1px solid #000000;
+   
+   
+}
+#state{
+    margin-left: 2%;
+    width: 30%;
+}
+.form-group{
+    padding: 0%;
+}
+
+
+table {
+   
+ border-collapse:collapse ;
+ margin-inline-start: 3cm;
+ margin-inline-end: 3cm;
+    padding: 0;
+ }
+ 
+
+
+ td {
+    border: none;
+    border: 1px inset #000 !important;
+    
+    text-align: center;
+}
+
+
+
+ td:nth-child(1){
+    width: 40%;
+}
+
+ td:nth-child(2){
+    width: 30%;
+}
+
+ td:nth-child(3){
+    width: 15%;
+}
+
+td:nth-child(4){
+    width: 15%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
